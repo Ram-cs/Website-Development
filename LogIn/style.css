@@ -1,0 +1,71 @@
+body {
+	background-image: url(http://ryokb95.upload-website.com/login-signupform/imgs/1.jpg);
+
+}
+
+h3 {
+	color: rgb(105,105,105);
+	font-size: 25px;
+}
+
+.container {
+	height: 500px;
+	width: 400px;
+	padding: 60px auto;
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	left: 400px;
+	top: 50px;
+	background-color: rgb(47,79,79);
+	background-image: url('http://ryokb95.upload-website.com/login-signupform/imgs/1.jpg');
+
+}
+
+input {
+	padding: 10px;
+	width: 250px;
+	border: 1px solid rgb(80,80,80);
+	border-radius: 10px;
+
+}
+
+input::placeholder {
+	font-style: normal;
+	font-size: 14px;
+}
+
+input:hover {
+	background:rgb(211, 211, 211);
+}
+
+button {
+	padding: 10px 45px;
+	background-color: rgb(211,211,211);
+}
+
+button:hover {
+	color: white;
+	background-color: rgb(80,80,80);
+}
+
+.login button {
+	position: relative;
+	left: 73px;
+	top: 10px;
+	font-size: 12px;
+	border-radius: 10px;
+}
+
+.signup button {
+	position: relative;
+	top: -29px;
+	right: 70px;
+	font-size: 12px;
+	border-radius: 10px;
+	
+}
+
+
+
+*/

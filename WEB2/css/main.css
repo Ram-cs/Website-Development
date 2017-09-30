@@ -1,0 +1,256 @@
+/*+++++++++++++++++++++++++++
+================================
+Name:Ram Yadav
+Template:Css
+================================
+*+++++++++++++++++++++++++++++++/
+
+/******************************
+* Css content:
+1. Header
+2. Body
+3. Fotter
+******************************/
+
+/*+++++++++++++++++++++++++++++++++++++++++*/
+
+/*==========================
+************MAIN SLIDER****
+===========================*/
+#imgCover, #imgCover1, #imgCover2{
+    opacity:0.9; 
+}
+
+.container {
+    padding: 30px 80px;
+}
+
+/*==========================
+**********NAVIGATION BAR*****
+===========================*/
+#navId {
+    background-color:#2d2d30;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    
+}
+
+.navbar li a, .navbar .navbar-brand { 
+      color:white !important;
+      background-color: #2d2d30;
+  }
+  .navbar-nav li a:hover {
+      color: lightseagreen!important;
+  }
+  .navbar-nav li.active a {
+      color: bisque !important;
+      background-color: #29292c !important;
+  }
+
+  /*======================================
+  **********MAIN SLIDER******************
+  =======================================*/
+  
+/*=============================
+**********PROJECTS*************
+==============================*/
+
+#projects {
+    background-color: #2d2d30;
+    height: 100%;
+    width:100%;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+	background-image: url(../images/home-pattern.png);
+	background-repeat:repeat;
+	opacity:0.9;
+}
+
+
+#listGroup{
+    width: 45%;
+    margin-left: 200px;
+   
+}
+
+#projectList {
+ background-image: url("../images/display/riska.jpg");
+ padding:100px;
+ opacity: 0.9;
+ 
+ 
+}
+
+/*==========================
+*********ABOUT ME***********
+============================*/
+
+#aboutMe {
+    background-color: #2d2d30;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    height:100%;
+    width:100%;
+	background-image: url(../images/home-pattern.png);
+	opacity:0.9;
+}
+
+#myParagraph {
+    padding-left:150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    border:10px ridge orange;
+    margin-left:100px;
+    margin-right: 100px;
+    border-radius: 50px;
+    margin-top: 15px;
+    padding-top:45px;
+}
+
+/*=============================
+*******MOTIVATION VIDEO********
+===============================*/
+#motivationVideo {
+    background-color: #2d2d30;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    height:100%;
+    width:100%;
+	background-image: url(../images/home-pattern.png);
+	opacity:0.9;
+}
+
+#video1, #video3 {
+    margin-left: 65px;
+    margin-top:10px;
+}
+
+#video2, #video4 {
+     margin-left:150px;
+     margin-top:10px;
+}
+
+#videoBackground {
+    background-image: url(../images/home-pattern.png);
+    padding-bottom: 45px;
+    padding-top: 45px;
+   
+}
+/*==========================
+*********INSPIRATION********
+===========================*/
+#idealPrsn {
+    background-color: #2d2d30;
+    height: 100%;
+    padding: 20px;
+    height:100%;
+    width:100%;
+	background-image: url(../images/home-pattern.png);
+	background-repeat:repeat;
+	opacity:0.9;
+   
+}
+.person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      
+      
+  }
+  .person:hover {
+      border-color: goldenrod;
+  }
+
+.bg-1 {
+    background-color:#2d2d30;
+    color:#bdbdbd;
+    padding:70px;
+    
+}
+
+.bg-1 h3 {
+    color:#fff;
+}
+
+.bg-1 p {
+    font-style: italic;
+}
+
+.thumbail {
+    padding: 0;
+    border: none;
+    border-radius: 0px;
+    
+}
+
+.btn {
+    background-color:#333;
+    color: #f1f1f1;
+    padding: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    color:black;
+    background-color: white;
+
+}
+
+/*===================
+*********BLOGS******
+===================*/
+#blgs {
+    background-color: #2d2d30;
+    height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    height:100%;
+    width:100%;
+	background-image: url(../images/home-pattern.png);
+	background-repeat:repeat;
+	opacity:0.9;
+}
+
+#blogs {
+    background-image:url(../images/fullscreen/huge.gif);
+}
+
+/*===================
+*********CONTACT******
+===================*/
+#cntct {
+    padding:10px;
+    height:100%;
+    width:100%;
+	background-image: url(../images/home-pattern.png);
+	background-repeat:repeat;
+	opacity:0.9;
+    background-color: #2d2d30;
+
+}
+
+/*===================
+*********GOOGLE MAP******
+===================*/
+#map {
+    margin-left: 45px;
+    margin-bottom: 45px;
+}
+
+/*===================
+*********FOOTER******
+===================*/
+#footer {
+    background-color: black;
+    color: white;
+}

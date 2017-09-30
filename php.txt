@@ -1,0 +1,3 @@
+strlen(“find the string lenght”);
+str_word_count(“Find the word”)
+strrev(“reverse string);

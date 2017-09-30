@@ -1,0 +1,27 @@
+<form>
+		<input type="text" name="name1" placeholder="enter number1">
+		<input type="text" name="name2" placeholder="enter number2">
+		<select name="operator">
+			<option> None </option>
+			<option> add </option>
+			<option> subtract </option>
+		</select>
+		<button type="submit" name="submit" value="submit"> Submit</button> 
+	</form>
+	<p> Your result: </p>
+	<?php
+		if (isset($_GET['submit'])) {
+			$num1 = $_GET['name1'];
+			$num2 = $_GET['name2'];
+			$operator1= $_GET['operator'];
+
+			switch($operator1) {
+				case "None": echo "nothing has been selected"; break;
+				case "add": echo ($num1 + $num2); break;
+				case "subtract": echo ($num1 - $num2); break;
+				default: echo "default";
+
+			}
+		}
+
+	?>

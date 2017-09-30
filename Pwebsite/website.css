@@ -1,0 +1,169 @@
+
+/************************HEAD*****************/
+/* header definition */
+header {
+   padding: 1em;
+    color: black;
+    text-align: center;
+    background-color: #ECEAE0;
+    font-variant: small-caps;
+    height: 30px;
+    margin-top: -57px;
+}
+
+/*resume */
+.resume {
+    text-align: left;
+    margin-top: -75px;
+    max-width: 200px;
+}
+
+/*contact Information */
+.contactInfo {
+    margin-right: 900px;
+}
+
+.contactInfo a{
+    text-decoration: none;
+    color:black;
+}
+
+/*image*/
+img {
+    border-radius: 10%;
+}
+
+/***********************BODY******************/
+/*body backgroudn clor */
+body {
+    background-color: #FDF3E7;
+}
+
+/* paragraph life story */
+p.lifeStory {
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 5px 5px 5px 22px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 20px 10px 10px 10px;
+    max-width: 50%;
+    margin-top: -100px;
+    margin-left: 120px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Project dropdown menu */
+.dropbtn {
+    background-color: bisque;
+    color:black;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.dropDownMenu {
+    position: relative;
+    display: inline-block;
+    margin-left: 1100px; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 13px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    border: 2px solid darkgray;
+    line-height: 15px;
+    border-radius: 7px;
+}
+
+.dropdown-content a:hover {background-color: burlywood}
+
+.dropDownMenu:hover .dropdown-content {
+    display: block;
+}
+
+.dropDownMenu:hover .dropbtn {
+    background-color:cyan;
+}
+
+/* Photo directories */
+.directories {
+    border: 5px solid black;
+    width: 180px;
+    margin-left: 20px;
+    border-top-right-radius: 40px;
+    background-color: burlywood;
+}
+#title{
+    font-weight: bold;
+    margin-left:30px;
+}
+
+#folder {
+    margin-top: -7px;
+    margin-left: 5px;
+}
+
+
+ul a {
+    line-height: 0.1px;
+    display: block;
+}
+
+ul a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-decoration: none;
+    max-width: 130px;
+    
+}
+
+ul a:hover, a:active {
+    background-color:wheat;
+    max-width: 100px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: cadetblue;
+}
+
+/* for video */
+.video {
+    margin-left: 800px;
+    margin-top: -80px;
+    max-width: 300px;
+
+}
+
+/*for LoginPage */
+.loginPage {
+    text-decoration: inline;
+    line-height: 25px;
+    margin-top: -180px;
+}
+
+
+/****************************FOOTER***********/
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    margin-top: 5px;
+    height: 25px;
+}

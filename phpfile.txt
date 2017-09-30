@@ -1,0 +1,36 @@
+/////////////create table in SQL:
+create table NAME(
+    id int(11) not NULL PRIMARY KEY AUTO_INCREMENT,
+    subject varchar(128) not NULL,
+    date datetime not NULL
+)
+
+
+////////////insert data into table
+insert into NAME(suject, date) VALUES('this is the subjects', '2017-8-7 08:08:44');
+
+
+///////////////select data from mySQL table => refer to the SQL w3 school
+select subject from posts
+select * from posts where id='1' and subject='this is the subject'
+
+//////////update content
+update NAME
+set subject='this is changed subjet', content='this is the changed content'
+where id='1'
+
+///////delete 
+delete from NAME
+where id='1'
+
+//ordering the data
+select * from NAME order by id asc
+
+//for connecting
+mysqlli_connect(hostName, userNameOfTheServer, PasswordOfTheServer, nameOfTheDataBase);
+
+///////encrypt the Password
+$password_encrypt = password_hash($pwdName, PASSWORD_DEFAULT);
+
+///decryoting password_encrypt
+$hash = password_verify($pwdName, $query_hash_password); => this result true or false statement
